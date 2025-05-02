@@ -1,10 +1,10 @@
 # Image Classification with CIFAR-10 Dataset
 
-Ini adalah Project Klasifikasi Gambar dengan dataset CIFAR-10 menggunakan **MobileNetV2**. Model dilatih untuk mengenali dan mengklasifikasikan gambar ke dalam sepuluh kategori. Selain itu, model yang telah dilatih dikonversi ke berbagai format seperti **SavedModel**, **TensorFlow Lite (TFLite)**, dan **TensorFlow.js** untuk memudahkan deployment di berbagai platform. 
+This is an Image Classification Project using the CIFAR-10 dataset with MobileNetV2. The Model is trained to recognize and classify the images into 10 classes. Also, the trained model is converted into various formats such as **SavedModel**, **TensorFlow Lite (TFLite)**, and **TensorFlow.js** to enable easy deployment across different platform. 
 
-## Fitur
-- Dataset yang digunakan adalah [berikut](https://www.tensorflow.org/datasets/catalog/cifar10).
-- Klasifikasi gambar menjadi 10 kelas: 
+## Feature
+- The dataset used is [this](https://www.tensorflow.org/datasets/catalog/cifar10).
+- Image classification into 10 classes: 
   - airplane
   - automobile
   - bird
@@ -15,14 +15,13 @@ Ini adalah Project Klasifikasi Gambar dengan dataset CIFAR-10 menggunakan **Mobi
   - horse
   - ship
   - truck
-- Arsitektur MobileNetV2.
-- Menyimpan model dalam berbagai format, yaitu:
+- Based on MobileNetV2 architecture.
+- The trained model is saved in multiple formats:
   - SavedModel
   - TFLite
   - TensorFlow.js
-- Terdapat script Jupyter Notebook (`notebook.ipynb`) dan file Python biasa (`notebook.py`).
 
-## Struktur Folder
+## Folder Structure
 ```
 |   notebook.ipynb
 |   notebook.py
@@ -50,7 +49,7 @@ Ini adalah Project Klasifikasi Gambar dengan dataset CIFAR-10 menggunakan **Mobi
 ```
 
 ## Requirement
-Install requirements sebelum menjalankan program:
+Install the requirements before running the program:
 ```bash
 pip install -r requirements.txt
 ```
